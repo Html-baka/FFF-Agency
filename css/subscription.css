@@ -1,0 +1,128 @@
+.subscription-wrapper {
+	margin-bottom: 50px;
+}
+@media (min-width: 1130px ) {
+	.subscription-wrapper {
+		margin-bottom: 110px;
+	}
+}
+.subscription {
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+	padding: 0 10px;
+	height: 510px;
+	width: 100%;
+	background-color: #f5f0dd;
+	
+	background-image: url(../img/subscription-background.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+@media (min-width: 1030px ) {
+	.subscription {
+		padding: 0;
+	}
+}
+.subscription-text {
+	padding-top: 140px;
+
+}
+.subscription-heading {
+	margin: 0;
+	font-size: 30px;
+	line-height: 1.2;
+	font-weight: 700;
+	color: #fdfcf8;
+}
+@media (min-width: 568px ) {
+	.subscription-heading {
+		line-height: 1;
+		font-size: 42px;
+	}
+}
+.subscription-descr {
+	margin: 15px 0 15px 0;
+	font-size: 14px;
+	line-height: 1.3;
+	color: #fdfcf8;
+	text-align: center;
+}
+@media (min-width: 440px ) {
+	.subscription-descr {
+		font-size: 16px;
+		line-height: 1.8;
+		margin: 30px 0 30px 0;
+	}
+}
+@media (min-width: 777px ) {
+	.subscription-descr {
+		margin: 30px 0 60px 0;
+	}
+}
+.subscription-form {
+	text-align: center;
+}
+.subscription-form-input {
+	padding: 0 0 0 35px;
+	margin: 0;
+	border: 0;
+	height: 60px;
+	width: 300px;
+	border-radius: 6px;
+	font-size: 16px;
+	line-height: 1.5;
+	color: #9f9f9f;
+	outline: 0;
+}
+@media (min-width: 440px ) {
+	.subscription-form-input {
+		width: 420px;
+		height: 70px;
+	}
+}
+@media (min-width: 568px ) {
+	.subscription-form-input {
+		width: 520px;
+	}
+}
+@media (min-width: 777px ) {
+	.subscription-form-input {
+		height: 80px;
+	}
+}
+.subscription-form-submit {
+	display: block;
+
+	margin: 0 auto;
+	margin-top: 15px;
+	padding: 0;
+	border: 0;
+	width: 190px;
+	height: 60px;
+	background-color: #ff2d2d;
+	color: #fff;
+	font-size: 18px;
+	font-weight: 700;
+	line-height: 2;
+	border-radius: 6px;
+}
+@media (min-width: 440px ) {
+	.subscription-form-submit {
+		height: 70px;
+		width: 215px;
+	}
+}
+@media (min-width: 777px ) {
+	.subscription-form-submit {
+		display: inline-block;
+		margin: 0 0 0 18px;
+		height: 80px;
+	}
+}
+.subscription-form-submit:hover {
+	cursor: pointer;
+	background-color: rgba(255,45,45,0.3);
+	transition: background-color ease-out 0.4s;
+}

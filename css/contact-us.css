@@ -1,0 +1,272 @@
+.contact-us {
+	margin-bottom: 0;
+	display: flex;
+	flex-wrap: wrap;	
+	display: flex;
+    justify-content: center;
+}
+@media (min-width: 750px ) {
+	.contact-us {
+		margin-bottom: 110px;
+	}
+}
+.contact-text {
+	margin-left: 15px;
+}
+@media (min-width: 800px ) {
+	.contact-text {
+		margin-left: 0;
+	}
+}
+.contact-text-heading {
+	margin: 0;
+	font-size: 32px;
+	line-height: 1.5;
+	color: #585858;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+@media (min-width: 650px ) {
+	.contact-text-heading {
+		font-size: 42px;
+	}
+}
+.contact-text-descr {
+	margin: 0;
+	color: #a0a0a0;
+	font-size: 14px;
+	line-height: 1.4;
+	margin-top: 5px;
+	max-width: 730px;
+}
+@media (min-width: 650px ) {
+	.contact-text-descr {
+		font-size: 16px;
+	}
+}
+@media (min-width: 750px ) {
+	.contact-text-descr {
+		margin-top: 35px;
+	}
+}
+.contact-text-descr:after {
+	margin-top: 20px;
+	display: block;
+	content: " ";
+	background-color: #ff2d2d;
+	height: 2px;
+	width: 130px;
+
+}
+@media (min-width: 650px ) {
+	.contact-text-descr:after {
+		margin-top: 50px;
+	}
+}
+.contact-message {
+	margin-top: 35px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: column;
+}
+@media (min-width: 750px ) {
+	.contact-message {
+		display: flex;
+		justify-content: space-between;
+		flex-wrap: wrap;
+		margin-top: 75px;
+		flex-direction: row;
+	}
+}
+.contact-form {
+	
+	display: flex;
+	flex-wrap: wrap;
+	margin-bottom: 20px;
+	margin-left: 15px;
+}
+@media (min-width: 750px ) {
+	.contact-form {
+		width: 55%;
+		margin-bottom: 0;
+	}
+}
+@media (min-width: 800px ) {
+	.contact-text {
+		margin-left: 0;
+	}
+}
+.contact-form-name,
+.contact-form-mail,
+.contact-form-message {
+	outline: 0;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	background-color: #e5e5e5;
+	border-radius: 10px;
+	font-size: 16px;
+	line-height: 1.75;
+}
+.contact-form-name {
+	font-size: 18px;
+	line-height: 2;
+	padding: 17px 5px 17px 20px;
+	margin-right: 0;
+	margin-bottom: 15px;
+}
+@media (min-width: 500px ) {
+	.contact-form-name {
+		margin-right: 55px;	
+	}
+}
+@media (min-width: 750px ) {
+	.contact-form-name {
+		width: 335px;
+		margin-bottom: 45px;
+		padding: 17px 50px 17px 50px;
+	}
+}
+.contact-form-mail {
+	font-size: 18px; 
+	line-height: 2;
+	padding: 17px 5px 17px 20px;
+	margin-bottom: 15px;
+}
+@media (min-width: 750px ) {
+	.contact-form-mail {
+		width: 335px;
+		margin-bottom: 45px;
+		padding: 17px 50px 17px 50px;
+	}
+}
+
+.contact-form-message {
+	font-family: 'Open Sans', sans-serif;
+	padding: 20px 5px 10px 20px;
+	display: block;
+	width: 96%;
+	height: 250px;
+	line-height: 1.75;
+	resize: none;
+	font-size: 16px;
+}
+@media (min-width: 750px ) {
+	.contact-form-message {
+		width: 730px;
+		padding: 30px 45px 10px 45px;
+
+	}
+}
+
+.contact-form-btn {
+	display: block;
+	border: none;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-top: 25px;
+	width: 200px;
+	height: 70px;
+	background-color: #ff3b3b;
+	font-size: 18px;
+	line-height: 2;
+	font-weight: 700;
+	color: #fff;
+	outline: none;
+}
+@media (min-width: 375px ) {
+	.contact-form-btn {
+		width: 330px;
+	}
+}
+@media (min-width: 750px ) {
+	.contact-form-btn {
+		width: 730px;
+		margin: 45px 0 0 0;
+	}
+}
+.contact-form-btn:hover {
+	background-color: #2d2d2d;
+	color: #e5e5e5;
+	cursor: pointer;
+	transition: background-color ease-in 0.3s, color ease-in 0.3s;
+}
+
+.contact-info {
+	width: 100%;
+	/*height: 480px;*/
+	background-color: #2d2d2d;
+	padding: 10px 5px 10px 10px;
+	margin-top: 0;
+}
+@media (min-width: 750px ) {
+	.contact-info {
+		width: 40%;
+		height: 480px;
+		background-color: #2d2d2d;
+		padding: 135px 10px 5px 75px;
+		margin-top: 30px;
+	}
+}
+.contact-info p {
+	font-size: 14px;
+	line-height: 1.75;
+	color: #d7d7d7;
+	display: inline-block;
+	padding-right: 10px; 
+}
+.contact-info p:last-child {
+	padding-right: 0;
+}
+@media (min-width: 750px ) {
+	.contact-info p {
+		display: block;
+		padding-right: 0; 
+		font-size: 16px;
+		line-height: 1.2;
+	}
+}
+.adress {
+	margin: 0;
+	color: #e0e0e0;
+	font-size: 18px;
+	line-height: 2;
+	text-transform: uppercase;
+	
+}
+@media (min-width: 750px ) {
+	.adress {
+		margin: 0 0 30px 0;
+	}
+}
+.adress-wrapper {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+@media (min-width: 750px ) {
+	.adress-wrapper {
+		display: block;
+	}
+}
+.adress-info {
+	margin: 0;
+}
+
+.adress-email {
+	margin: 0;
+}
+@media (min-width: 750px ) {
+	.adress-email {
+		margin: 25px 0 0;
+	}
+}
+.adress-phone {
+	margin: 0;
+
+}
+@media (min-width: 750px ) {
+	.adress-phone {
+		margin: 25px 0 0;
+	}
+}
